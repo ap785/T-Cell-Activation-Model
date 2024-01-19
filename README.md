@@ -14,7 +14,7 @@ This repository contains a mathematical model for T cell activation, implemented
 
 ## Overview
 
-The mathematical model simulates T cell activation under different conditions, considering the impact of costimulatory signals such as CD2, ICAM, CD28, CD27, and 4-1BB. The implemented models are based on ordinary differential equations (ODEs) to describe the dynamics of key variables over time.
+The mathematical model simulates T cell activation under different conditions, considering the impact of engaging the costimulatory receptors: CD2, ICAM, CD28, CD27, and 4-1BB. The implemented models are based on ordinary differential equations (ODEs) to describe the dynamics of key variables over time. The schematic below indicates at which point each costimulatory receptor integrates into T cell signalling
 
 ![Figure Description](model_fig.png)
 
