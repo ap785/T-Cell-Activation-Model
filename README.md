@@ -31,46 +31,43 @@ To use the model, first run the models for each cytokine.
 
 ## Parameters
 
-$k_{on} = $ TCR-pMHC association rate ()
-
 $k_{on}$: TCR-pMHC association rate
 
+$k_{off}$: TCR-pMHC dissociation rate ()
 
-$k_{off} = $ TCR-pMHC dissociation rate ()
+$k_{syn}$: basal TCR upregulation ()
 
-$k_{syn} = $ basal TCR upregulation ()
+$k_{basal}$: basal (ligand-independent) TCR down-regulation ()
 
-$k_{basal} = $ basal (ligand-independent) TCR down-regulation ()
+$k_{down}$: ligand-induced TCR down-regulation ()
 
-$k_{down} = $ ligand-induced TCR down-regulation ()
+$k_{act}$: production of switch / signaling amplification ()
 
-$k_{act} = $ production of switch / signaling amplification ()
+$k_{prod}$: cytokine production rate ()
 
-$k_{prod} = $ cytokine production rate ()
+$k_{deg}$: Degradation of switch ()
 
-$k_{deg} = $ Degradation of switch ()
+$k_{cdeg}$: Degradation of output ()
 
-$k_{cdeg} = $ Degradation of output ()
+$k_{on_2}$: costimulatory receptor-ligand association rate ()
 
-$k_{on_2} = $ costimulatory receptor-ligand association rate ()
+$k_{off_2}$: costimulatory receptor-ligand dissociation rate ()
 
-$k_{off_2} = $ costimulatory receptor-ligand dissociation rate ()
+$k_{syn_2}$: basal costimulatory receptor upregulation ()
 
-$k_{syn_2} = $ basal costimulatory receptor upregulation ()
+$k_{basal_2}$: basal (ligand-independent) costimulatory receptor down-regulation ()
 
-$k_{basal_2} = $ basal (ligand-independent) costimulatory receptor down-regulation ()
+$k_{down_2}$: ligand-induced costimulatory receptor down-regulation ()
 
-$k_{down_2} = $ ligand-induced costimulatory receptor down-regulation ()
+$k_{cd2a}$: CD2 costimulation (proximal)
 
-$k_{cd2a} = $ CD2 costimulation (proximal)
+$k_{cd2b}$: CD2 costimulation (distal)
 
-$k_{cd2b} = $ CD2 costimulation (distal)
+$k_{icama}$: LFA-1 costimulation (proximal)
 
-$k_{icama} = $ LFA-1 costimulation (proximal)
+$k_{icamb}$: LFA-1 costimulation (distal)
 
-$k_{icamb} = $ LFA-1 costimulation (distal)
-
-$k_{28} = $ CD28 costimulation (distal)
+$k_{28}$: CD28 costimulation (distal)
 
 $C_{\text{star}}$
 
