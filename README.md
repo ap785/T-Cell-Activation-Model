@@ -14,7 +14,12 @@ This repository contains a mathematical model for T cell activation, implemented
 
 ## Overview
 
-The mathematical model simulates T cell activation under different conditions, considering the impact of costimulatory signals such as CD2, ICAM, CD28, CD27, and 4-1BB. The implemented models are based on ordinary differential equations (ODEs) to describe the dynamics of key variables over time.
+The mathematical model simulates T cell activation under different conditions, considering the impact of engaging the costimulatory receptors: CD2, ICAM, CD28, CD27, and 4-1BB. The implemented models are based on ordinary differential equations (ODEs) to describe the dynamics of key variables over time. The schematic below indicates at which point each costimulatory receptor integrates into the T cell signalling pathway.
+
+L: pMHC
+R: TCR
+C: TCR-pMHC complex
+M: Intracellular signalling threshold switch
 
 ![Figure Description](model_fig.png)
 
@@ -26,49 +31,49 @@ To use the model, first run the models for each cytokine.
 
 ## Parameters
 
-$k_{on} = $ TCR-pMHC association rate ($\mu m^{2}s^{-1}$)
+$k_{on}$: TCR-pMHC association rate
 
-$k_{off} = $ TCR-pMHC dissociation rate ($s^{-1}$)
+$k_{off}$: TCR-pMHC dissociation rate ()
 
-$k_{syn} = $ basal TCR upregulation ($s^{-1}\mu m^{-2}$)
+$k_{syn}$: basal TCR upregulation ()
 
-$k_{basal} = $ basal (ligand-independent) TCR down-regulation ($s^{-1}$)
+$k_{basal}$: basal (ligand-independent) TCR down-regulation ()
 
-$k_{down} = $ ligand-induced TCR down-regulation ($s^{-1}$)
+$k_{down}$: ligand-induced TCR down-regulation ()
 
-$k_{act} = $ production of switch / signalling amplification ($s^{-1}$)
+$k_{act}$: production of switch / signaling amplification ()
 
-$k_{prod} = $ cytokine production rate ($s^{-1}$)
+$k_{prod}$: cytokine production rate ()
 
-$k_{deg} = $ Degredation of switch ($s^{-1}$)
+$k_{deg}$: Degradation of switch ()
 
-$k_{cdeg} = $ Degredation of output ($s^{-1}$)
+$k_{cdeg}$: Degradation of output ()
 
-$k_{on_2} = $ costimulatory receptor-ligand association rate ($\mu m^{2}s^{-1}$)
+$k_{on_2}$: costimulatory receptor-ligand association rate ()
 
-$k_{off_2} = $ costimulatory receptor-ligand dissociation rate ($s^{-1}$)
+$k_{off_2}$: costimulatory receptor-ligand dissociation rate ()
 
-$k_{syn_2} = $ basal costimulatory receptor upregulation ($s^{-1}\mu m^{-2}$)
+$k_{syn_2}$: basal costimulatory receptor upregulation ()
 
-$k_{basal_2} = $ basal (ligand-independent) costimulatory receptor down-regulation ($s^{-1}$)
+$k_{basal_2}$: basal (ligand-independent) costimulatory receptor down-regulation ()
 
-$k_{down_2} = $ ligand-induced costimulatory receptor down-regulation ($s^{-1}$)
+$k_{down_2}$: ligand-induced costimulatory receptor down-regulation ()
 
-$k_{cd2a} = $ CD2 costimulation (proximal)
+$k_{cd2a}$: CD2 costimulation (proximal)
 
-$k_{cd2b} = $ CD2 costimulation (distal)
+$k_{cd2b}$: CD2 costimulation (distal)
 
-$k_{icama} = $ LFA-1 costimulation (proximal)
+$k_{icama}$: LFA-1 costimulation (proximal)
 
-$k_{icamb} = $ LFA-1 costimulation (distal)
+$k_{icamb}$: LFA-1 costimulation (distal)
 
-$k_{28} = $ CD28 costimulation (distal)
+$k_{28}$: CD28 costimulation (distal)
 
-Cstar
+$C_{\text{star}}$: Intracellular signalling threshold
 
-Cstar2
+$C_{\text{star2}}$ 4-1BB costimulation threshold
 
-time_delay - 41BB upregulation delay after T cell activation
+$time_{\text{delay}}$ - 41BB upregulation delay after T cell activation
 
 
 
