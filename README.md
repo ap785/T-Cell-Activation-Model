@@ -16,6 +16,11 @@ This repository contains a mathematical model for T cell activation, implemented
 
 The mathematical model simulates T cell activation under different conditions, considering the impact of engaging the costimulatory receptors: CD2, ICAM, CD28, CD27, and 4-1BB. The implemented models are based on ordinary differential equations (ODEs) to describe the dynamics of key variables over time. The schematic below indicates at which point each costimulatory receptor integrates into the T cell signalling pathway.
 
+L: pMHC
+R: TCR
+C: TCR-pMHC complex
+M: Intracellular signalling threshold switch
+
 ![Figure Description](model_fig.png)
 
 Specifically the models compares the production of cytokine (ouput) over time under different costimulatory conditions (CD2, LFA-1, CD28, 41BB, CD27). There are 3 models, each for the output of 3 different cytokines: IFN-gamma, IL-2 and TNF-alpha. The data is plotted as the rate of production over the first 12 hours and last 8 hours to identify under which costimulation does cytokine continue to be produced at later timepoints. 
