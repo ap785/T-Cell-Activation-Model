@@ -75,6 +75,10 @@ $C_{\text{star2}}$ 4-1BB costimulation threshold
 
 $time_{\text{delay}}$ - 41BB upregulation delay after T cell activation
 
+## Results
+
+1. All costimulatory receptors increased the rate of cytokine production
+
 
 
 
