@@ -18,15 +18,11 @@ The mathematical model simulates T cell activation under different conditions, c
 
 ![Figure Description](model_fig.png)
 
+Specifically the models compares the production of cytokine (ouput) over time under different costimulatory conditions (CD2, LFA-1, CD28, 41BB, CD27). There are 3 models, each for the output of 3 different cytokines: IFN-gamma, IL-2 and TNF-alpha. The data is plotted as the rate of production over the first 12 hours and last 8 hours to identify under which costimulation does cytokine continue to be produced at later timepoints. 
 
 ## Usage
 
-To use the model, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/ap785/TCellActivationModel.git
+To use the model, first run the models for each cytokine.
 
 ## Parameters
 
