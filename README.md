@@ -69,9 +69,9 @@ $k_{icamb}$: LFA-1 costimulation (distal)
 
 $k_{28}$: CD28 costimulation (distal)
 
-$C_{\text{star}}$
+$C_{\text{star}}$: Intracellular signalling threshold
 
-$C_{\text{star2}}$
+$C_{\text{star2}}$ 4-1BB costimulation threshold
 
 $time_{\text{delay}}$ - 41BB upregulation delay after T cell activation
 
