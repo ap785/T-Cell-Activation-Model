@@ -75,6 +75,51 @@ $C_{\text{star2}}$
 
 $time_{\text{delay}}$ - 41BB upregulation delay after T cell activation
 
+k_on = TCR-pMHC association rate
+
+k_off = TCR-pMHC dissociation rate
+
+k_syn = basal TCR upregulation
+
+k_basal = basal (ligand-independent) TCR down-regulation
+
+k_down = ligand-induced TCR down-regulation
+
+k_act = production of switch / signaling amplification
+
+k_prod = cytokine production rate
+
+k_deg = Degradation of switch
+
+k_cdeg = Degradation of output
+
+k_on_2 = costimulatory receptor-ligand association rate
+
+k_off_2 = costimulatory receptor-ligand dissociation rate
+
+k_syn_2 = basal costimulatory receptor upregulation
+
+k_basal_2 = basal (ligand-independent) costimulatory receptor down-regulation
+
+k_down_2 = ligand-induced costimulatory receptor down-regulation
+
+k_cd2a = CD2 costimulation (proximal)
+
+k_cd2b = CD2 costimulation (distal)
+
+k_icama = LFA-1 costimulation (proximal)
+
+k_icamb = LFA-1 costimulation (distal)
+
+k_28 = CD28 costimulation (distal)
+
+Cstar
+
+Cstar2
+
+time_delay - 41BB upregulation delay after T cell activation
+
+
 
 
 
