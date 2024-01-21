@@ -74,10 +74,12 @@ $C_{\text{star2}}$ 4-1BB costimulation threshold
 
 $time_{\text{delay}}$ - 41BB upregulation delay after T cell activation
 
-## Results
+## Key Results
 
-1. All costimulatory receptors increased the rate of cytokine production (from total_output.py) compared to when TCR is engaged with no costimulation
-2. CD2, LFA-1 & 41BB cositmulation increase the rate of productino at the later timepoint across all cytokine outputs (rate_bar_plot.py)
+1. All costimulatory receptors increased the rate of cytokine production (from total_output.py) compared to when TCR is engaged with no costimulation.
+
+2. CD2, LFA-1 & 41BB cositmulation increase the rate of productino at the later timepoint across all cytokine outputs (rate_bar_plot.py).
+   
 3. For IFN-g production the rate of cytokine production stays fairly constant under CD2 costimulation, however the production rate decreases for IL-2 nad TNF-alpha. This is due to cytokien degradation incoporated into the model for the latter cytokines. 
 
 
