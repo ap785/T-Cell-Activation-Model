@@ -9,7 +9,7 @@ This repository contains a mathematical model for T cell activation, implemented
 - [Usage](#usage)
 - [Models](#models)
 - [Parameters](#parameters)
-- [Key Results](#keyresults)
+- [Results](#results)
 
 ## Overview
 
@@ -74,7 +74,7 @@ $C_{\text{star2}}$ 4-1BB costimulation threshold
 
 $time_{\text{delay}}$ - 41BB upregulation delay after T cell activation
 
-## Key Results
+## Results
 
 1. All costimulatory receptors increased the rate of cytokine production (from total_output.py) compared to when TCR is engaged with no costimulation.
 
