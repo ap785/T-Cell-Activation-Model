@@ -9,7 +9,7 @@ This repository contains a mathematical model for T cell activation, implemented
 - [Usage](#usage)
 - [Models](#models)
 - [Parameters](#parameters)
-- [Key Results](#results)
+- [Key Results](#keyresults)
 
 ## Overview
 
